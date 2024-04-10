@@ -38,3 +38,7 @@ int main(){
     int mst = primAlgo(graph,V);
     return 0;
 }
+
+// Time Complexity
+// Adjacency Matrix : O(V*2)
+// Adjacency List : O((V+E)*log(V))
